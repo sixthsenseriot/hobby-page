@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    background-color: white;
+    margin: 0;
+    margin-bottom: -16px;
+}
+
+.menu {
+    text-align: center;
+    padding: 10px 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 14px;
+}
+
+.logo {
+    height: 70px;
+    margin-right: 22px;
+}
+
+.contact-button {
+    color: white;
+    background-color: #605dba;
+    border: none;
+    border-radius: 8px;
+    margin-left: 22px;
+    padding: 10px 22px;
+}
+
+
+.about-section {
+    background-color: #F0F0F8;
+    margin: 0;
+}
+
+.abigail {
+    display: block;
+    margin: 0 auto;
+    margin-left: 50%;
+    max-height: 50%;
+    max-width: 50%;
+    text-align: center;
+    padding: 0;
+}

@@ -5,28 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hobby Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 </head>
 <body>
+
     <header>
         <div class="nav-container">
-            <nav>
-                <img src="img/logo.png" alt="hobby page logo">
-                <div>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Art Gallery</a></li>
-                    <li><a href="#">Prompt Genereator</a></li>
-                    <li><a href="#">Equipment</a></li>
-                    <li><a href="#">Apps</a></li>
-                    <li><a href="#">Resources</a></li>
-                </div>
-                <button>Contact</button>
+            <nav class="top-nav">
+                <ul class="menu">
+                    <li><img src="img/logo.png" alt="hobby page logo" class="logo"></li>
+                    <li><a href="#about" class="about-link">About</a></li>
+                    <li><a href="#gallery" class="gallery-link">Art Gallery</a></li>
+                    <li><a href="#generator" class="generator-link">Prompt Genereator</a></li>
+                    <li><a href="#equipment" class="equipment-link">Equipment</a></li>
+                    <li><a href="#apps" class="apps-link">Apps</a></li>
+                    <li><a href="#resources" class="resources-link">Resources</a></li>
+                    <li><button class="contact-button">Contact</button></li>
+                </ul>
             </nav>
         </div>
     </header>
 
+    <div class="about-section">
+        <div class="about">
+            <div class="image-wrapper">
+                <img src="img/main/abigail.png" alt="illustration of abigail pent" class="abigail">
+            </div>
+        </div>
+    </div>
 
+    <div class="gallery-section"></div>
 
+    <div class="generator-section"></div>
 
+    <div class="equipment-section"></div>
+
+    <footer></footer>
 
     <script src="javascript.js"></script>
 </body>
