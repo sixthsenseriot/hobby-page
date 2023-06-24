@@ -18,7 +18,7 @@ html, body {
 .menu {
     text-align: center;
     padding: 10px 0;
-    margin-bottom: -42px;
+    margin-bottom: -46px;
 }
 
 li {
@@ -230,10 +230,6 @@ span.gradient {
     margin-bottom: 50px;
 }
 
-.about-container {
-    padding-bottom: 150px;
-}
-
 h2 {
     color: #343f52;
     font-family: sans-serif;
@@ -241,8 +237,14 @@ h2 {
     text-align: center;
 }
 
+.about-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .artvartist {
-    float: left;
+    display: inline-block;
     width: 428px;
     margin-right: 50px;
 }
