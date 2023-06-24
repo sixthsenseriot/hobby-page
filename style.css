@@ -222,12 +222,16 @@ span.gradient {
     background-color: white;
     display: block;
     margin: 0 auto;
-    padding: 50px 160px;
+    padding: 100px 160px;
     position: relative;
 }
 
 .header-container {
     margin-bottom: 50px;
+}
+
+.about-content {
+    padding-bottom: 20px;
 }
 
 h2 {
@@ -273,10 +277,10 @@ span.locked-tomb {
 }
 
 /* gallery section */
-.gray container {
+.gray-container {
     display: block;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 60px 160px;
     position: relative;
 }
 
@@ -293,7 +297,8 @@ span.locked-tomb {
     transform: scale(1.5);
 }
 
-.art-text {
+.art-text,
+.equipment-text {
     font-family: sans-serif;
     text-align: center;
     margin-top: 10px;
@@ -316,6 +321,12 @@ span.locked-tomb {
 }
 
 /* my equipment section */
+.row-equipment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .generator {
     margin: auto;
     width: 50%;
@@ -344,6 +355,10 @@ span.locked-tomb {
 
 .generated-prompt {
     font-family: sans-serif;
+}
+
+.item {
+    width: 225px;
 }
 
 
