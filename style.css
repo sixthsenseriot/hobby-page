@@ -280,11 +280,18 @@ span.locked-tomb {
 
 .gal-art {
     width: 300px;
+    transition: transform .2s;
+}
+
+.gal-art:hover {
+    transform: scale(1.5);
 }
 
 .art-text {
     font-family: sans-serif;
     text-align: center;
+    margin-top: 10px;
+    line-height: 1.5;
 }
 
 .row-1,
