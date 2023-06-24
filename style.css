@@ -184,6 +184,21 @@ p.main-sub {
     font-size: 22px;
 }
 
+span {
+    font-style: italic;
+    font-family: 'IBM Plex Serif', serif;
+    padding-right: 0.2em;
+    margin-right: -0.2em;
+}
+
+.gradient {
+    background-image: linear-gradient(to right, #ce6989, #853fe0);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
 /* about section */
 .white-container {
     background-color: white;
