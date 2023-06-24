@@ -407,6 +407,8 @@ span.locked-tomb {
     width: 100px;
     border-radius: 22px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 0 auto;
+    display: block;
 }
 
 .for {
