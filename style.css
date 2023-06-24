@@ -364,10 +364,12 @@ span.locked-tomb {
 }
 
 /* ipad apps section */
-.row-reference {
+.row-reference,
+.row-draw {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    margin-bottom: 60px;
 }
 
 .app-head {
@@ -378,18 +380,21 @@ span.locked-tomb {
 
 }
 
-.ref-card {
+.ref-card,
+.draw-card {
     background-color: #F0F0F8;
     padding: 20px;
-    margin: 10px 10px;
+    margin: 8px 8px;
     border-radius: 8px;
 }
 
-.ref-app {
-    width: 130px;
-    border-radius: 20px;
+.ref-app,
+.draw-app {
+    width: 100px;
+    border-radius: 22px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
 
 /* footer */
 footer {
