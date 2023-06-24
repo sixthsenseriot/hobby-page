@@ -8,52 +8,60 @@
     <script src="https://kit.fontawesome.com/e6a4cb6747.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="top-nav">
         <ul class="menu">
             <li><img src="img/logo.png" alt="hobby page logo" class="logo"></li>
-            <li><a href="#about" class="about-link">About</a></li>
-            <li><a href="#gallery" class="gallery-link">Art Gallery</a></li>
-            <li><a href="#generator" class="generator-link">Prompt Genereator</a></li>
-            <li><a href="#equipment" class="equipment-link">Equipment</a></li>
-            <li><a href="#apps" class="apps-link">Apps</a></li>
+            <li><a href="#about" class="link">About</a></li>
+            <li><a href="#gallery" class="link">Art Gallery</a></li>
+            <li><a href="#generator" class="link">Prompt Genereator</a></li>
+            <li><a href="#equipment" class="link">Equipment</a></li>
+            <li><a href="#apps" class="link">Apps</a></li>
             <li><a href="#resources" class="resources-link">Resources</a></li>
             <li><button class="contact-button">Contact</button></li>
         </ul>
     </nav>
-    <main>
-        <div class="container before-after">
-          <div class="image-container">
-            <img
-              class="image-before slider-image"
-             src="img/main/abigail.png"
-              alt="color photo"
-            />
-            <img
-              class="image-after slider-image"
-              src="img/main/abigailflat.png"
-              alt="black and white"
-            />
-          </div>
-          <input
-            type="range"
-            min="0"
-            max="100"
-            value="50"
-            aria-label="Percentage of before photo shown"
-            class="slider"
-          />
-          <div class="slider-line" aria-hidden="true"></div>
-          <div class="slider-button" aria-hidden="true">
-            <i class="fa-solid fa-left-right"></i>
-          </div>
-        </div>
-    </main>
 
-    <div class="galery-section">
-        <h1>My art gallery</h1>
+    <div class="front-container">
+        <div class="main-container">
+            <div class="main"></div>
+            <h1 class="main-title">Digital <span class="gradient">Art</span></h1>
+            <p class="main-sub">The possibilities are endless!</p>
+        </div>
+        <main>
+            <div class="container before-after">
+              <div class="image-container">
+                <img
+                  class="image-before slider-image"
+                 src="img/main/abigail.png"
+                  alt="rendered photo"
+                />
+                <img
+                  class="image-after slider-image"
+                  src="img/main/abigailflat.png"
+                  alt="unrendered photo"
+                />
+              </div>
+              <input
+                type="range"
+                min="0"
+                max="100"
+                value="50"
+                aria-label="Percentage of before photo shown"
+                class="slider"
+              />
+              <div class="slider-line" aria-hidden="true"></div>
+              <div class="slider-button" aria-hidden="true">
+                <i class="fa-solid fa-left-right"></i>
+              </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="about-container">
+        <h2>Why I love <span>drawing</span></h2>
     </div>
 
 
