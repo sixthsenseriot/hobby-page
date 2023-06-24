@@ -55,8 +55,11 @@ button {
     border-radius: 8px;
     font-family: sans-serif;
     font-size: 1em;
+    padding: 14px 22px;
+}
+
+.contact-button {
     margin-left: 22px;
-    padding: 12px 22px;
 }
 
 .contact-button:hover {
@@ -68,6 +71,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: -34px;
 }
 
 /* before after image feature */
@@ -212,15 +216,46 @@ span.gradient {
     background-color: white;
     display: block;
     margin: 0 auto;
-    padding: 50px;
+    padding: 50px 160px;
     position: relative;
+}
+
+.header-container {
+    margin-bottom: 50px;
+}
+
+.about-container {
+    padding-bottom: 150px;
 }
 
 h2 {
     color: #343f52;
     font-family: sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
+}
+
+.artvartist {
+    float: left;
+    width: 428px;
+    margin-right: 50px;
+}
+
+.about-description {
+    padding-left: 20px;
+}
+
+.my-description-one,
+.my-description-two {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #60697b;
+    margin-bottom: 20px;
+}
+
+span.locked-tomb {
+    color: #605dba;
+    font-style: italic;
 }
 
 /* gallery section */
