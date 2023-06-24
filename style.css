@@ -254,16 +254,22 @@ h2 {
 }
 
 .my-description-one,
-.my-description-two {
+.my-description-two,
+.name {
     font-family: sans-serif;
     line-height: 1.5;
     color: #60697b;
     margin-bottom: 20px;
 }
 
+.name {
+    font-style: italic;
+}
+
 span.locked-tomb {
     color: #605dba;
     font-style: italic;
+    font-weight: 500;
 }
 
 /* gallery section */
@@ -308,6 +314,38 @@ span.locked-tomb {
     margin: 10px 10px;
     border-radius: 8px;
 }
+
+/* my equipment section */
+.generator {
+    margin: auto;
+    width: 50%;
+}
+
+.excerpt {
+    font-family: sans-serif;
+    color: #343f52;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.prompt-container {
+    padding: 8px;
+    border: solid #60697b;
+    border-width: thin;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.prompt-label {
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.generated-prompt {
+    font-family: sans-serif;
+}
+
 
 /* footer */
 footer {
