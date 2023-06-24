@@ -411,6 +411,13 @@ span.locked-tomb {
     display: block;
 }
 
+.ref-app:hover,
+.draw-app:hover,
+.plan-app:hover {
+    opacity: 0.8;
+    transition: all 100ms ease-in-out;
+}
+
 .for {
     font-size: 12px;
 }
