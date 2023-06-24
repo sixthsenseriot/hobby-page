@@ -320,12 +320,7 @@ span.locked-tomb {
     border-radius: 8px;
 }
 
-/* my equipment section */
-.row-equipment {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/* prompt generator section */
 
 .generator {
     margin: auto;
@@ -357,10 +352,44 @@ span.locked-tomb {
     font-family: sans-serif;
 }
 
+/* my equipment section */
+.row-equipment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .item {
     width: 225px;
 }
 
+/* ipad apps section */
+.row-reference {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-head {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    color: #60697b;
+    font-weight: bold;
+
+}
+
+.ref-card {
+    background-color: #F0F0F8;
+    padding: 20px;
+    margin: 10px 10px;
+    border-radius: 8px;
+}
+
+.ref-app {
+    width: 130px;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 
 /* footer */
 footer {
