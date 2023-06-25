@@ -285,7 +285,7 @@ span.locked-tomb {
 }
 
 .default-padding {
-    padding: 50px 160px;
+    padding: 50px 0;
 }
 
 .gal-art {
@@ -301,7 +301,8 @@ span.locked-tomb {
 .equipment-text,
 .ref-text,
 .draw-text,
-.plan-text {
+.plan-text,
+.resource-text {
     font-family: sans-serif;
     color: #343f52;
     text-align: center;
@@ -368,6 +369,12 @@ span.locked-tomb {
 }
 
 /* ipad apps section */
+.apps-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .row-reference,
 .row-draw,
 .row-plan {
@@ -404,7 +411,7 @@ span.locked-tomb {
 .ref-app,
 .draw-app,
 .plan-app {
-    width: 100px;
+    width: 120px;
     border-radius: 22px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin: 0 auto;
@@ -413,7 +420,8 @@ span.locked-tomb {
 
 .ref-app:hover,
 .draw-app:hover,
-.plan-app:hover {
+.plan-app:hover,
+.website:hover {
     opacity: 0.8;
     transition: all 100ms ease-in-out;
 }
@@ -422,6 +430,29 @@ span.locked-tomb {
     font-size: 12px;
 }
 
+/* resources section */
+.resources-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-resource {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.website {
+    width: 200px;
+}
+
+.resource-head {
+    font-family: sans-serif;
+    margin-bottom: 12px;
+    color: #60697b;
+    font-weight: bold;
+}
 
 /* footer */
 footer {
