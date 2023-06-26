@@ -441,9 +441,33 @@ span.locked-tomb {
 /* footer */
 footer {
     background-color: #343f52;
-    padding: 100px 50px;
+    padding: 100px 100px;
 }
 
-p.coded-by {
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 300px;
+}
+
+.more-about-container {
+    margin: 0 40px;
+}
+
+.more-about-head {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.more-about-text,
+.more-about-head {
     color: white;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    line-height: 1.2;
 }
