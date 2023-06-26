@@ -40,8 +40,8 @@ a:active {
     text-decoration: none;
 }
 
-a:link {
-    color: #343f52;
+.link {
+    color: #383680;
 }
 
 a:hover {
@@ -340,12 +340,32 @@ span.locked-tomb {
     margin-bottom: 50px;
 }
 
+.prompt-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.copy-button {
+    background-color: #ce6989;
+    color: white;
+    position: relative;
+    bottom: 4px;
+    padding: 14px 22px;
+    margin-left: 12px;
+}
+
+button.copy-button:hover {
+    background-color: #923452;
+}
+
 .prompt-container {
     padding: 8px;
     border: solid #60697b;
     border-width: thin;
     border-radius: 8px;
     margin-bottom: 10px;
+    width: 500px;
 }
 
 .prompt-label {
