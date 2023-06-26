@@ -9,6 +9,21 @@ html {
     scroll-behavior: smooth;
 }
 
+.sub {
+    font-family: sans-serif;
+    text-align: center;
+    color: #343f52;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.sub-top {
+    font-family: sans-serif;
+    text-align: center;
+    color: #343f52;
+    line-height: 1.5;
+}
+
 /* navigation bar */
 
 .top-nav {
