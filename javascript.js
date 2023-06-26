@@ -62,3 +62,17 @@ function copyToClipboard() {
     document.body.removeChild(el)
 }
 copy_button.addEventListener("click", copyToClipboard)
+
+// open email envelope on click and revert back
+const email = document.querySelector("#email");
+email.addEventListener("click", function() {
+    let showCopied = document.querySelector("#email");
+    showCopied.innerHTML = `<i class="fa-solid fa-envelope-open"></i>
+    My Email: knh.nguyen2002@gmail.com`;
+    const myTimeout = setTimeout(revert, 800);
+    function revert() {
+        let revertCopy = document.querySelector("#email");
+        revertCopy.innerHTML = `<i class="fa-solid fa-envelope"></i>
+        My Email: knh.nguyen2002@gmail.com`
+    }
+})
