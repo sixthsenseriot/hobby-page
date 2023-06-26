@@ -26,4 +26,13 @@ window.onload = function display_prompt(event) {
     displayprompt.innerHTML = generate(word);
 }
 
+// regenerate prompt on button press
+function regenerate(event) {
+    event.preventDefault();
+    let displayRegenerate = document.querySelector("#generated-prompt");
+    displayRegenerate.innerHTML = generate(word);
+}
+let regenerate_button = document.querySelector("#generate-button");
+regenerate_button.addEventListener("click", regenerate);
+
 // copy button
