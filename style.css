@@ -519,7 +519,8 @@ footer {
 .more-about-head,
 .video-head,
 .links-container,
-.links-row-two {
+.links-row-two,
+.coded {
     color: white;
     font-family: sans-serif;
     margin-bottom: 10px;
@@ -554,7 +555,8 @@ footer {
 }
 
 .links-container,
-.links-row-two {
+.links-row-two,
+.coded {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -566,4 +568,9 @@ footer {
 
 .email {
     margin-top: 15px;
+}
+
+.coded {
+    font-size: 12px;
+    margin-top: 50px;
 }
