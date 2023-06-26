@@ -441,33 +441,72 @@ span.locked-tomb {
 /* footer */
 footer {
     background-color: #343f52;
-    padding: 100px 100px;
+    padding: 80px 100px;
 }
 
-.footer-content {
+.more-about-content {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 60px;
 }
 
 .pfp {
     border-radius: 50%;
-    width: 300px;
+    width: 350px;
 }
 
-.more-about-container {
+.more-about-container,
+.links-list {
     margin: 0 40px;
 }
 
-.more-about-head {
+.more-about-head,
+.video-head {
     font-weight: bold;
     font-size: 18px;
 }
 
 .more-about-text,
-.more-about-head {
+.more-about-head,
+.video-head,
+.links-container {
     color: white;
     font-family: sans-serif;
     margin-bottom: 10px;
     line-height: 1.2;
+}
+
+.linkedin,
+.shecodes,
+.links-list,
+.icons-list,
+.col-link {
+    color: white;
+}
+
+.linkedin:hover,
+.shecodes:hover,
+.col-link:hover {
+    color: #60697b;
+}
+
+.fa-pencil,
+.fa-hand-fist,
+.link-icon {
+    margin-right: 4px;
+}
+
+.video {
+    width: 300px;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-col {
+    margin-right: 20px;
 }
