@@ -35,4 +35,30 @@ function regenerate(event) {
 let regenerate_button = document.querySelector("#generate-button");
 regenerate_button.addEventListener("click", regenerate);
 
+
+// copy prompt button - change button to say `copied` and revert back
+const copy_button = document.querySelector("#copy-button");
+copy_button.addEventListener("click", function() {
+    let showCopied = document.querySelector("#copy-button");
+    showCopied.innerHTML = `Copied!`;
+    const myTimeout = setTimeout(revert, 800);
+    function revert() {
+        let revertCopy = document.querySelector("#copy-button");
+        revertCopy.innerHTML = `Copy`
+    }
+})
+
 // copy button
+function copyToClipboard() {
+    const str = document.getElementById('generated-prompt').innerText
+    const el = document.createElement('textarea')
+    el.value = str
+    el.setAttribute('readonly', '')
+    el.style.position = 'absolute'
+    el.style.left = '-9999px'
+    document.body.appendChild(el)
+    el.select()
+    document.execCommand('copy')
+    document.body.removeChild(el)
+}
+copy_button.addEventListener("click", copyToClipboard)
