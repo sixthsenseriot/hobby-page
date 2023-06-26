@@ -207,6 +207,14 @@ main {
     bottom: 10px;
 }
 
+.arrow {
+    position: relative;
+    margin-top: -100px;
+    left: 200px;
+    top: 60px;
+    transform: rotate(20deg);
+}
+
 h1.main-title {
     color: #343f52;
     font-size: 50px;
@@ -219,6 +227,7 @@ p.main-sub {
     color: #60697b;
     font-size: 22px;
     font-family: sans-serif;
+    margin-bottom:30px;
 }
 
 span.gradient {
@@ -384,7 +393,7 @@ button.copy-button:hover {
     border-width: thin;
     border-radius: 8px;
     margin-bottom: 10px;
-    width: 500px;
+    width: 600px;
 }
 
 .prompt-label {
@@ -509,7 +518,8 @@ footer {
 .more-about-text,
 .more-about-head,
 .video-head,
-.links-container {
+.links-container,
+.links-row-two {
     color: white;
     font-family: sans-serif;
     margin-bottom: 10px;
@@ -518,6 +528,7 @@ footer {
 
 .linkedin,
 .shecodes,
+.challenge,
 .links-list,
 .icons-list,
 .col-link {
@@ -526,13 +537,15 @@ footer {
 
 .linkedin:hover,
 .shecodes:hover,
-.col-link:hover {
+.col-link:hover,
+.challenge:hover {
     color: #60697b;
 }
 
 .fa-pencil,
 .fa-hand-fist,
-.link-icon {
+.link-icon,
+.fa-envelope {
     margin-right: 4px;
 }
 
@@ -540,7 +553,8 @@ footer {
     width: 300px;
 }
 
-.links-container {
+.links-container,
+.links-row-two {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -548,4 +562,8 @@ footer {
 
 .link-col {
     margin-right: 20px;
+}
+
+.email {
+    margin-top: 15px;
 }
