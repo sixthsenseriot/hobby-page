@@ -355,9 +355,14 @@ span.locked-tomb {
 
 /* prompt generator section */
 
+.generator-container {
+    padding: 100px 100px;
+}
+
 .generator {
     margin: auto;
     width: 50%;
+    margin-bottom: 50px;
 }
 
 .excerpt {
@@ -403,6 +408,35 @@ button.copy-button:hover {
 
 .generated-prompt {
     font-family: sans-serif;
+}
+
+.traditional-art-head {
+    font-family: sans-serif;
+    color: #343f52;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.traditional-card {
+    background-color: #F0F0F8;
+    padding: 20px;
+    margin: 10px 10px;
+    border-radius: 8px;
+}
+
+.traditional-art {
+    display: flex;
+    justify-content: center;
+}
+
+.traditional {
+    width: 225px;
+    transition: transform .2s;
+}
+
+.traditional:hover {
+    transform: scale(1.4);
 }
 
 /* my equipment section */
