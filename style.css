@@ -565,6 +565,51 @@ button.copy-button:hover {
     width: 200px;
 }
 
+/* video swiper */
+.video-swiper-line {
+    width: 920px;
+    margin: auto;
+}
+
+.video-container {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.swiper {
+    width: 626px;
+    height: 440px;
+}
+
+.swiper-slide iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #605dba;
+}
+
+.video-container .swiper-pagination-bullet {
+    background: #605dba;
+}
+
+.video-container .swiper-button-prev {
+    left: -40px;
+    color: #605dba;
+}
+
+.video-container .swiper-button-next {
+    right: -40px;
+    color: #605dba;
+}
+
+.video-container .swiper-pagination {
+    bottom: -30px!important;
+}
+
 /* footer */
 footer {
     background-color: #343f52;
