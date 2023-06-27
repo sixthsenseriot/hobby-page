@@ -330,7 +330,8 @@ span.locked-tomb {
 .ref-text,
 .draw-text,
 .plan-text,
-.resource-text {
+.resource-text,
+.setup-text {
     font-family: sans-serif;
     color: #343f52;
     text-align: center;
@@ -354,10 +355,6 @@ span.locked-tomb {
 }
 
 /* prompt generator section */
-
-.generator-container {
-    padding: 100px 100px;
-}
 
 .generator {
     margin: auto;
@@ -410,7 +407,8 @@ button.copy-button:hover {
     font-family: sans-serif;
 }
 
-.traditional-art-head {
+.traditional-art-head,
+.setup-head {
     font-family: sans-serif;
     color: #343f52;
     text-align: center;
@@ -439,7 +437,19 @@ button.copy-button:hover {
     transform: scale(1.4);
 }
 
+.description {
+    font-family: sans-serif;
+    color: #343f52;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
 /* my equipment section */
+.equipment-display {
+    margin-bottom: 50px;
+}
+
 .row-equipment {
     display: flex;
     align-items: center;
@@ -448,6 +458,31 @@ button.copy-button:hover {
 
 .item {
     width: 225px;
+}
+
+.setup-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setup {
+    width: 700px;
+}
+
+.setup-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setup-text {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.setup-link {
+    color: #383680;
 }
 
 /* ipad apps section */
