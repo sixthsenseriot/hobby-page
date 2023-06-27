@@ -466,14 +466,24 @@ button.copy-button:hover {
     align-items: center;
 }
 
+.setup-card {
+    display: flex;
+    justify-items: center;
+}
+
 .setup {
-    width: 700px;
+    width: 550px;
+    margin-bottom: 8px;
 }
 
 .setup-links {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.setup-links-last {
+    margin-bottom: 8px;
 }
 
 .setup-text {
